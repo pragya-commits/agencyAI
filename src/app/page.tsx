@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Herosection from "@/components/Herosection";
 import Companies from "@/components/Companies";
 import Help from "@/components/Help";
+import Work from "@/components/Work";
 function page() {
   return (
     <Box>
@@ -11,6 +12,7 @@ function page() {
       <Herosection />
       <Companies />
       <Help />
+      <Work />
     </Box>
   );
 }
