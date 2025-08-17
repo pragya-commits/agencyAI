@@ -10,6 +10,7 @@ function Navbar() {
         justifyContent: "space-between",
         ml: "150px",
         mr: "150px",
+        mt: "10px",
       }}
     >
       <Image

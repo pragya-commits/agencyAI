@@ -5,6 +5,9 @@ import Herosection from "@/components/Herosection";
 import Companies from "@/components/Companies";
 import Help from "@/components/Help";
 import Work from "@/components/Work";
+import Team from "@/components/Team";
+import Form from "@/components/Form";
+import Footer from "@/components/Footer";
 function page() {
   return (
     <Box>
@@ -13,6 +16,9 @@ function page() {
       <Companies />
       <Help />
       <Work />
+      <Team />
+      <Form />
+      <Footer />
     </Box>
   );
 }

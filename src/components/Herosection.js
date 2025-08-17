@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 function Herosection() {
   return (
-    <Box>
+    <Box sx={{ pb: "100px" }}>
       <Box
         sx={{
           display: "flex",
